@@ -12,5 +12,5 @@ letters.forEach (function () {
 });
 
 //Funciones flecha
-letters.forEach( () => console.log(element));
+letters.forEach( () => console.log("elementO"));
 
