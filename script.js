@@ -1,10 +1,10 @@
-const letters = ["a", "b", "c", "d"];
+const nombres = ["antonio", "bibiana", "carlos", "diana"];
 
 // Funciones por expresion
-const f = function (letters) {
-  console.log("un elemento");
-};
-letters.forEach(f);
+console.log("From ForEach() function")
+nombres.forEach( function (currenttValue) {
+  console.log(currentValue);
+});
 
 // Funciones anonimas
 letters.forEach (function () {
@@ -12,5 +12,5 @@ letters.forEach (function () {
 });
 
 //Funciones flecha
-letters.forEach( () => console.log("un elemento"));
+letters.forEach( (element) => console.log(element));
 
