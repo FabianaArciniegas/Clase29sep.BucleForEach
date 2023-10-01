@@ -1,14 +1,17 @@
-const animales = ["oso", "perro", "gato", "loro", "caracol"]
+
 
 // con funcion expresion
-const lista = function (animal) {
-  console.log (animal);
-};
+// const numeros = [1, 2, 3, 4, 5]
+// const lista = function (animal) {
+//   console.log (animal);
+// };
 
 // con funcion anomina
+const animales = ["oso", "perro", "gato", "loro", "caracol"]
 animales.foreach (function (animal) {
 console.log (animal);
 });
 
 // con funcion flecha
-animales.foreach(animal => console.log (animal));
+const listaanimales = ["oso", "perro", "gato", "loro", "caracol"]
+listaanimales.foreach(listaanimal => console.log (listaanimal));
