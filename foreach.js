@@ -11,4 +11,4 @@ console.log (animal);
 });
 
 // con funcion flecha
-animales.foreach((animal) => console.log (animal));
+animales.foreach(animal => console.log (animal));
