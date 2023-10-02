@@ -15,5 +15,5 @@ letters.forEach (function () {
 letters.forEach( () => console.log("un elemento"));
 
 // con funcion flecha
-const listaanimales = ["oso", "perro", "gato", "loro", "caracol"]
-listaanimales.foreach((listaanimal) => console.log (listaanimal));
+const animales = ["oso", "perro", "gato", "loro", "caracol"]
+listaanimales.forEach((listaanimal) => console.log (listaanimal));
