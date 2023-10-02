@@ -1,5 +1,5 @@
-
 const animales = ["oso", "perro", "gato", "loro", "caracol"]
+animales.forEach((listaanimal) => console.log (listaanimal));
 
 // con funcion expresion
 // const lista = function (animal) {
@@ -14,4 +14,4 @@ const animales = ["oso", "perro", "gato", "loro", "caracol"]
 // });
 
 // con funcion flecha
-animales.forEach((listaanimal) => console.log (listaanimal));
+// animales.forEach((listaanimal) => console.log (listaanimal));
