@@ -14,4 +14,4 @@
 
 // con funcion flecha
 const listaanimales = ["oso", "perro", "gato", "loro", "caracol"]
-listaanimales.foreach(listaanimal => console.log (listaanimal));
+listaanimales.foreach((listaanimal) => console.log (listaanimal));
