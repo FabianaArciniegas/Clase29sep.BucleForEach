@@ -6,11 +6,11 @@
 //   console.log (animal);
 // };
 
-// con funcion anomina
-const animales = ["oso", "perro", "gato", "loro", "caracol"]
-animales.foreach (function (animal) {
-console.log (animal);
-});
+// // con funcion anomina
+// const animales = ["oso", "perro", "gato", "loro", "caracol"]
+// animales.foreach (function () {
+// console.log (animal);
+// });
 
 // con funcion flecha
 const listaanimales = ["oso", "perro", "gato", "loro", "caracol"]
