@@ -9,9 +9,9 @@ animales.forEach((listaanimal) => console.log (listaanimal));
 
 // // con funcion anomina
 
-// animales.forEach (function (animal) {
-// console.log (animal);
-// });
+animales.forEach (function (animal) {
+console.log (animal);
+});
 
 // con funcion flecha
 // animales.forEach((listaanimal) => console.log (listaanimal));
