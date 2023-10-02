@@ -13,5 +13,3 @@ letters.forEach (function () {
 
 //Funciones flecha
 letters.forEach( () => console.log("un elemento"));
-
-
